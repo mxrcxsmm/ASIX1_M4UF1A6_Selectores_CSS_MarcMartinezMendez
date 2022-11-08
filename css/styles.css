@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https: //fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu+Mono&display=swap');
 * {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -68,4 +68,20 @@ img {
     width: 100%;
     border: solid darkcyan 1px;
     border-radius: 5px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table {
+    width: 100%;
+    font-size: 15px;
 }
